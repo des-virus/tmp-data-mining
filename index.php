@@ -90,7 +90,7 @@
                         </div>
                         <div class="row">
                             <div class="form-group">
-                                <label class="control-label col-sm-2" for="mean">TB cộng</label>
+                                <label class="control-label col-sm-2" for="mean">TB cộng (mean)</label>
                                 <div class="col-sm-10">
                                     <label class="form-control" id="sum">{{mean}}</label>
                                 </div>
@@ -98,7 +98,7 @@
                         </div>
                         <div class="row">
                             <div class="form-group">
-                                <label class="control-label col-sm-2" for="standard_deviation">Phương sai</label>
+                                <label class="control-label col-sm-2" for="standard_deviation">Phương sai (σ)</label>
                                 <div class="col-sm-10">
                                     <label class="form-control" id="sum">{{standard_deviation}}</label>
                                 </div>
@@ -114,7 +114,7 @@
                     <div class="col-md-6">
                         <div class="row">
                             <div class="form-group">
-                                <label class="control-label col-sm-2" for="elem_num">Trung vị</label>
+                                <label class="control-label col-sm-2" for="elem_num">Trung vị (median)</label>
                                 <div class="col-sm-10">
                                     <label class="form-control" id="sum">{{median}}</label>
                                 </div>
@@ -122,15 +122,15 @@
                         </div>
                         <div class="row">
                             <div class="form-group">
-                                <label class="control-label col-sm-2" for="sum">Mode</label>
+                                <label class="control-label col-sm-2" for="mode">Mode</label>
                                 <div class="col-sm-10">
-                                    <label class="form-control" id="sum">{{sum}}</label>
+                                    <label class="form-control" id="mode">{{mode}}</label>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="form-group">
-                                <label class="control-label col-sm-2" for="mean">Midrange</label>
+                                <label class="control-label col-sm-2" for="mean">Midrange (max+min)/2</label>
                                 <div class="col-sm-10">
                                     <label class="form-control" id="sum">{{midrange}}</label>
                                 </div>
